@@ -3,9 +3,8 @@
 /* ======== Header ======== */
 header {
     max-width: 1024px;
-    min-height: 500px;
+    height: 500px;
     padding-top: 30px;
-    padding-right: 30px;
     background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0), var(--darkText)),
     url('../images/placeholder.png');
@@ -25,11 +24,8 @@ header {
     display: flex;
     justify-content: space-between;
 }
-ul {
-    width: 100px;
-}
+
 li {
-    display: inline;
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
@@ -48,6 +44,8 @@ li {
     background-size: cover;
     background-position: center;
     border-radius: 100%;
+    margin-right: 30px;
+    margin-left: 30px;;
 }
 a {
     text-decoration: none;
