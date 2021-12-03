@@ -1,0 +1,9 @@
+/* Basic style guide, Please change these values to update themes for the index.html */
+
+:root {
+    --lightText: #FFF;
+    --darkText: #454545;
+    --lightbodyColor: #EEE;
+    --darkbodyColor: #C4C4C4;
+    --accentColor: #F3774D;
+}
