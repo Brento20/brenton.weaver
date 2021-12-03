@@ -6,7 +6,11 @@ header {
     min-height: 500px;
     padding-top: 30px;
     padding-right: 30px;
-    background-color: var(--darkText);
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), var(--darkText)),
+    url('../images/placeholder.png');
+    background-size: cover;
+    background-position: center;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -39,7 +43,9 @@ li {
 .floatingLogo {
     height:150px;
     width:150px;
-    background-color: var(--accentColor);
+    background-image: url(../images/profileImage.png);
+    background-size: cover;
+    background-position: center;
     border-radius: 100%;
 }
 
@@ -57,8 +63,7 @@ h1 {
     font-weight: 100;
     line-height: 1.5;
     margin-left: 5%;
-    margin-right: 5%;
-    
+    margin-right: 5%;    
 }
 
 
