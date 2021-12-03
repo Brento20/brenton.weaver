@@ -1,0 +1,80 @@
+/* CSS Specific to the header */
+
+/* ======== Header ======== */
+header {
+    max-width: 1024px;
+    min-height: 500px;
+    padding-top: 30px;
+    padding-right: 30px;
+    background-color: var(--darkText);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+/* ======== Top section header ======== */
+.headTop {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    width: 100px;
+}
+li {
+    display: inline;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.navMenu ul {
+    display:flex;
+    line-height: 2.5;
+    background-color: var(--accentColor);
+    color: var(--lightText);
+    width: 300px;
+    font-weight: 300;
+}
+.floatingLogo {
+    height:150px;
+    width:150px;
+    background-color: var(--accentColor);
+    border-radius: 100%;
+}
+
+
+
+/* ======== Top section header ======== */
+.headMiddle {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+h1 {
+    font-size: 3rem;
+    color: var(--lightText);
+    font-weight: 100;
+    line-height: 1.5;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+
+/* ======== Bottom section header ======== */
+.headBottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+
+h2 {
+    font-size: 2rem;
+    color: var(--lightText);
+    font-weight: 600;
+    line-height: 1.5;
+}
