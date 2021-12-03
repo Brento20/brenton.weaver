@@ -1,0 +1,48 @@
+.mainPanel {
+    background-color: turquoise;
+    max-width: 1024px;
+    background-color: var(--lightbodyColor);
+    margin: auto;
+    
+}
+
+.outerFrame {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    max-width: 1024px;
+    
+    
+    
+}
+
+.box {
+    min-width: 450px;
+    max-width: 500px;
+    min-height: 400px;
+    padding: 25px;
+    margin-top: 5%;
+
+}
+
+.quoteBackground {
+    width: 400px;
+    height: 450px;
+    background-color: var(--accentColor);
+    padding: 15%;
+    box-shadow: 0px 0px 25px rgba(135, 135, 135, 0.5);
+}
+
+.quote {
+    text-align: right;
+    color: var(--lightText);
+    font-size: 3rem;
+    font-weight: 700;
+    user-select: all;
+    text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.666);
+    transition: all .2s ease-in-out; 
+}
+
+.quote:hover { 
+    transform: scale(1.2); 
+    }
