@@ -2,27 +2,35 @@
     background-color: turquoise;
     max-width: 1024px;
     background-color: var(--lightbodyColor);
-    margin: auto;
-    
+    margin: auto; 
+    padding: 10px%; 
 }
 
 .outerFrame {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
-    max-width: 1024px;
-    
-    
-    
+    justify-content:space-between;
+    max-width: 1024px;  
 }
 
 .box {
+    display: flex;
+    flex-wrap: wrap;
     min-width: 450px;
     max-width: 500px;
     min-height: 400px;
     padding: 25px;
     margin-top: 5%;
+}
 
+.aboutMe {
+    border: dashed black 4px;
+    
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .quoteBackground {
@@ -43,6 +51,41 @@
     transition: all .2s ease-in-out; 
 }
 
+h3 {
+    font-size: 2rem;
+    font-weight: 100;
+    text-align:left;
+    line-height: 2.5;
+}
+
 .quote:hover { 
     transform: scale(1.2); 
     }
+
+.workLarge {
+    width: 400px;
+    height: 200px;
+    border-radius: 0px 100px 0px 0px;
+    background-color: var(--accentColor);
+    margin-left: 5px;
+    box-shadow: 0px 0px 25px rgba(135, 135, 135, 0.5);
+}
+
+.workSmall1 {
+    width: 200px;
+    height: 200px;
+    background-color: var(--accentColor);
+    margin: 5px;
+    border-radius: 0px 0px 0px 100px;
+    box-shadow: 0px 0px 25px rgba(135, 135, 135, 0.5);
+}
+
+.workSmall2 {
+    width: 190px;
+    height: 200px;
+    background-color: var(--accentColor);
+    margin: 5px;
+    box-shadow: 0px 0px 25px rgba(135, 135, 135, 0.5);
+   
+}
+

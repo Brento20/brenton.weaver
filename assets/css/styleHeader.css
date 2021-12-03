@@ -49,6 +49,10 @@ li {
     background-position: center;
     border-radius: 100%;
 }
+a {
+    text-decoration: none;
+    color: var(--lightText);
+}
 
 
 
@@ -75,12 +79,11 @@ h1 {
     align-items: center;
 }
 
-
-
-
 h2 {
     font-size: 2rem;
     color: var(--lightText);
     font-weight: 600;
     line-height: 1.5;
 }
+
+
