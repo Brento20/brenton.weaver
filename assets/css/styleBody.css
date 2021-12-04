@@ -1,5 +1,8 @@
+/*  ==========
+    Structure
+    ========== */
+
 .mainPanel {
-    background-color: turquoise;
     max-width: 1024px;
     background-color: var(--lightbodyColor);
     margin: auto; 
@@ -17,9 +20,18 @@
 .box {
     display: flex;
     flex-wrap: wrap;
-    min-width: 300px;
+    min-width: 400px;
+    max-width: 450px;
+    padding: 25px;
+    margin-top: 5%;
+}
+
+.workbox {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 450px;
     max-width: 500px;
-    min-height: 400px;
+    height: 400px;
     padding: 25px;
     margin-top: 5%;
 }
@@ -29,6 +41,16 @@ section {
     flex-wrap: wrap;
 }
 
+
+footer {
+    max-width: 1024px;
+    min-height: 150px;
+    background-color: var(--darkbodyColor);
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+/* quote box */
 .quoteBackground {
     width: 400px;
     height: 450px;
@@ -51,49 +73,41 @@ h3 {
     font-weight: 700;
     user-select: all;
     text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.666);
-    transition: all .2s ease-in-out; 
 }
 
-.quote:hover { 
-    transform:scale(1.1);
-    }
-
+/* images of body of work */
 .workLarge {
     width: 400px;
     height: 200px;
-    border-radius: 0px 100px 0px 0px;
+    border-radius: 50px 50px 0px 0px;
     background-color: var(--accentColor);
-    margin-left: 5px;
-    box-shadow: 0px 0px 25px rgba(135, 135, 135, 0.5);
+    
 }
 
 .workSmall1 {
     width: 200px;
     height: 200px;
+    border-radius: 0px 0px 0px 50px;
     background-color: var(--accentColor);
-    margin: 5px;
-    border-radius: 0px 0px 0px 100px;
-    box-shadow: 0px 0px 25px rgba(135, 135, 135, 0.5);
+    
 }
 
 .workSmall2 {
-    width: 190px;
+    width: 200px;
     height: 200px;
+    border-radius: 0px 0px 50px 0px;
     background-color: var(--accentColor);
-    margin: 5px;
-    box-shadow: 0px 0px 25px rgba(135, 135, 135, 0.5);
-   
 }
 
-.contactContainer {
+/* contact content */
+#contactContainer {
     display: flex;
     flex-direction: column;
 }
 
 .contacts {
     display: flex;
-    flex-wrap: wrap;
-    width: 140px;
+    width: 400px;
     height: 140px;
     justify-content: space-between;
 }
@@ -102,9 +116,24 @@ h3 {
     margin-top: 10px;
     margin-bottom: 30px;
     margin-right: 60px;
-    transition: all .2s ease-in-out; 
 }
 
-#icon:hover {
-    transform: scale(1.5);
+
+
+/*  ==========
+    CSS Hover and Animation
+    ========== */
+.quote {    
+    transition: all .2s ease-in-out; 
 }
+.quote:hover { 
+    transform:scale(1.1);
+    }
+
+
+#icon {
+        transition: all .5s ease-in-out;
+    }
+#icon:hover {
+        transform: scale(1.5);
+    }

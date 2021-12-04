@@ -22,11 +22,11 @@ THEN I am presented with a responsive layout that adapts to my viewport
 | Task | Status |
 |--|--|
 | Portfolio hosted from github |  |
-| Name, photo/avatar and links present |  |
-| Links work to "about me", "work" and "contact"   |  |
-| Image for first application is larger |  |
+| Name, photo/avatar and links present | Complete |
+| Links work to "about me", "work" and "contact"   | Complete |
+| Image for first application is larger | Complete |
 | Application/works links externally | |
-| Site is responsive to different devices |  |
+| Site is responsive to different devices | attempted |
 
 
 
