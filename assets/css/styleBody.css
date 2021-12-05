@@ -68,9 +68,22 @@ h3 {
 }
 
 h4 {
-    background-color: var(--accentColor);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 400px;
+    line-height: 2;
     text-align: center;
+    position: relative;
+    top: 165px;
+}
+
+h5 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 200px;
+    line-height: 2;
+    text-align: center;
+    position: relative;
+    color: var(--lightText);
+    top: 165px;
 }
 
 .quote {
@@ -86,7 +99,7 @@ h4 {
 .workLarge {
     width: 400px;
     height: 200px;
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 30px 30px 0px 0px;
     background-image: url(../images/horiseon.png);
     background-size: 400px;
     margin-bottom: 4%;
@@ -96,7 +109,7 @@ h4 {
 .workSmall1 {
     width: 200px;
     height: 200px;
-    border-radius: 30px 0px 0px 30px;
+    border-radius: 30px 0px 0px 0px;
     background-image: url(../images/instagram.png);
     background-size: 200px;
     transition: all .5s ease-in-out;
@@ -105,7 +118,7 @@ h4 {
 .workSmall2 {
     width: 200px;
     height: 200px;
-    border-radius: 0px 30px 30px 0px;
+    border-radius: 0px 30px 0px 0px;
     background-color: var(--accentColor);
     transition: all .5s ease-in-out;
 }
