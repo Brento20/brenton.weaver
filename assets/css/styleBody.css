@@ -67,6 +67,12 @@ h3 {
     color: var(--darkText);
 }
 
+h4 {
+    background-color: var(--accentColor);
+    width: 400px;
+    text-align: center;
+}
+
 .quote {
     text-align: right;
     color: var(--lightText);
@@ -103,11 +109,6 @@ h3 {
     background-color: var(--accentColor);
     transition: all .5s ease-in-out;
 }
-
-.workLarge:hover,.workSmall1:hover,.workSmall2:hover {
-    transform: scale(1.1);
-}
-
 
 /* contact content */
 #contactContainer {
@@ -146,4 +147,7 @@ h3 {
     }
 #icon:hover {
         transform: scale(1.5);
+    }
+.workLarge:hover,.workSmall1:hover,.workSmall2:hover {
+        transform: scale(1.1);
     }
