@@ -6,21 +6,24 @@
     --lightbodyColor: rgb(237, 237, 237);
     --darkbodyColor: #C4C4C4;
     --accentColor: #F3774D;
+    --dropShadows: rgba(135, 135, 135, 0.5)
 }
 
 html {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    line-height: 1.5;
 }
 
 header,.mainPanel,footer {
-    box-shadow: 0px 0px 25px rgba(135, 135, 135, 0.5);
+    box-shadow: 0px 0px 50px var(--dropShadows);
 }
 
 /* ====== Mobile test zone ====== */
 
 @media only screen and (max-width: 600px) {
-.headTop {
+
+    .headTop {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,15 +31,13 @@ header,.mainPanel,footer {
 .floatingLogo {
     margin-top: 10%;
 }
-html {
-    margin: auto;
+section {
+    width: 100vw;
 }
 
-.box {
-    width: auto;
+.outerFrame {
+    padding: 0px;
 }
 
-ul {
-    width: 600px;
-}
+
 }

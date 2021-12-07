@@ -20,18 +20,17 @@
 .box {
     display: flex;
     flex-wrap: wrap;
-    min-width: 400px;
+    min-width: 300px;
     max-width: 450px;
-    padding: 25px;
+    padding: 2%;
     margin-top: 5%;
 }
 
 .workbox {
     display: flex;
     flex-wrap: wrap;
-    min-width: 450px;
+    min-width: 400px;
     max-width: 500px;
-    height: 400px;
     padding: 25px;
     margin-top: 5%;
 }
@@ -48,6 +47,8 @@ footer {
     background-color: var(--darkbodyColor);
     margin:auto;
     margin-bottom: 50px;
+    text-align: center;
+    padding: 30px;
 }
 
 /* quote box */
@@ -57,6 +58,10 @@ footer {
     background-color: var(--accentColor);
     padding: 15%;
     box-shadow: 0px 0px 25px rgba(135, 135, 135, 0.5);
+}
+
+p {
+    line-height: 1.5;
 }
 
 h3 {
@@ -89,6 +94,7 @@ h5 {
 .quote {
     text-align: right;
     color: var(--lightText);
+    line-height: 1;
     font-size: 3rem;
     font-weight: 700;
     user-select: all;
@@ -127,6 +133,10 @@ h5 {
 #contactContainer {
     display: flex;
     flex-direction: column;
+}
+
+.supportASRC {
+    max-width: 400px;
 }
 
 .contacts {
