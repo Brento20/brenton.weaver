@@ -21,12 +21,12 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 | Task | Status |
 |--|--|
-| Portfolio hosted from github |  |
+| Portfolio hosted from github | Complete |
 | Name, photo/avatar and links present | Complete |
 | Links work to "about me", "work" and "contact"   | Complete |
 | Image for first application is larger | Complete |
-| Application/works links externally | |
-| Site is responsive to different devices | attempted |
+| Application/works links externally | Complete |
+| Site is responsive to different devices | Complete |
 
 
 
@@ -61,4 +61,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Future improvments.
 
-TBC
+1. I deviated from the original wire-frame and didn't include a background for the main panel, in a future revision id love to add a scrolling effect that used an wave shape background.
+2. The original shape I wanted for the works panel didn't snap well to mobile and I ended up using margins a bit too much, in a future revision ill ad a grid to give it more structure.
