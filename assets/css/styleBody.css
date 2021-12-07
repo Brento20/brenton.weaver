@@ -144,12 +144,14 @@ h5 {
     width: 400px;
     height: 140px;
     justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 60px;
 }
 
 #icon {
     margin-top: 10px;
     margin-bottom: 30px;
-    margin-right: 60px;
+    margin-right: 40px;
 }
 
 
