@@ -14,7 +14,7 @@
     flex-wrap: wrap;
     justify-content:space-between;
     max-width: 1024px;
-    padding: 20px;  
+    padding: 3%;  
 }
 
 .box {
@@ -29,9 +29,10 @@
 .workbox {
     display: flex;
     flex-wrap: wrap;
-    min-width: 400px;
-    max-width: 500px;
-    padding: 25px;
+    justify-content: space-around;
+    min-width: 300px;
+    max-width: 400px;
+    padding: 2%;
     margin-top: 5%;
 }
 
@@ -51,7 +52,6 @@ footer {
     padding: 30px;
 }
 
-/* quote box */
 .quoteBackground {
     max-width: 400px;
     height: 450px;
@@ -60,6 +60,7 @@ footer {
     box-shadow: 0px 0px 25px rgba(135, 135, 135, 0.5);
 }
 
+/* ====== Font and headers ====== */
 p {
     line-height: 1.5;
 }
@@ -73,73 +74,66 @@ h3 {
 }
 
 h4 {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 300px;
     line-height: 2;
     text-align: center;
-    position: relative;
-    top: 75px;
+    
 }
 
-h5 {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 200px;
-    line-height: 2;
-    text-align: center;
-    position: relative;
-    color: var(--lightText);
-    top: 75px;
-}
+
+ em {
+     font-weight: 600;
+     font-style: italic;
+ }
 
 .quote {
     text-align: right;
     color: var(--lightText);
-    line-height: 1;
-    font-size: 3rem;
+    line-height: 1.4;
+    font-size: 2.5rem;
     font-weight: 700;
     user-select: all;
     text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.666);
 }
 
-/* images of body of work */
+/* ====== images of body of work ======= */
 .workLarge {
     width: 300px;
     height: 250px;
-    border-radius: 30px;
+    border-radius: 0px 0px 30px 30px;
     background-image: url(../images/horiseon.png);
     background-size: 400px;
     transition: all .5s ease-in-out;
 }
 
 .workSmall1 {
-    width: 200px;
-    height: 200px;
-    border-radius: 30px;
-    margin-left: 20px;
-    margin-top: 10px;
+    width: 300px;
+    height: 150px;
+    border-radius: 0px 0px 30px 30px;
+    margin-top: 2%;
     background-image: url(../images/instagram.png);
-    background-size: 200px;
+    background-size: 300px;
     transition: all .5s ease-in-out;
 }
 
 .workSmall2 {
-    width: 200px;
-    height: 200px;
-    margin-left: 20px;
-    margin-top: 10px;
-    border-radius: 30px;
+    width: 300px;
+    height: 150px;
+    margin-top: 2%;
+    border-radius: 0px 0px 30px 30px;
     background-color: var(--accentColor);
     transition: all .5s ease-in-out;
 }
 
-/* contact content */
+/* ====== contact content ======= */
 #contactContainer {
     display: flex;
     flex-direction: column;
 }
 
 .supportASRC {
-    max-width: 300px;
+    width: 375px;
 }
 
 .contacts {
