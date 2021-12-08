@@ -1,5 +1,15 @@
+
+/* 
+Table of contents
+1.) Structure
+2.) Text Styling
+3.) Images
+4.) CSS animations
+*/
+
+
 /*  ==========
-    Structure
+    1.) Structure
     ========== */
 
 .mainPanel {
@@ -59,11 +69,31 @@ footer {
     padding: 15%;
     box-shadow: 0px 0px 25px rgba(135, 135, 135, 0.5);
 }
+#contactContainer {
+    display: flex;
+    flex-direction: column;
+}
+.contacts {
+    display: flex;
+    width: 400px;
+    height: 140px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 60px;
+}
 
-/* ====== Font and headers ====== */
+
+
+
+/*  ==========
+    2.) Text Styling
+    ========== */
+
 p {
     line-height: 1.5;
 }
+
+/* N.B H1 an H2 tags styled in "styleHeader.css" */
 
 h3 {
     font-size: 2rem;
@@ -77,10 +107,8 @@ h4 {
     background-color: rgba(0, 0, 0, 0.7);
     width: 300px;
     line-height: 2;
-    text-align: center;
-    
+    text-align: center;   
 }
-
 
  em {
      font-weight: 600;
@@ -97,7 +125,13 @@ h4 {
     text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.666);
 }
 
-/* ====== images of body of work ======= */
+
+
+
+/*  ==========
+    3.) Images
+    ========== */
+
 .workLarge {
     width: 300px;
     height: 250px;
@@ -125,24 +159,8 @@ h4 {
     background-color: var(--accentColor);
     transition: all .5s ease-in-out;
 }
-
-/* ====== contact content ======= */
-#contactContainer {
-    display: flex;
-    flex-direction: column;
-}
-
 .supportASRC {
     width: 375px;
-}
-
-.contacts {
-    display: flex;
-    width: 400px;
-    height: 140px;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-right: 60px;
 }
 
 #icon {
@@ -153,8 +171,9 @@ h4 {
 
 
 
+
 /*  ==========
-    CSS Hover and Animation
+    4.) CSS Animation
     ========== */
 .quote {    
     transition: all .2s ease-in-out; 

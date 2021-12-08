@@ -1,4 +1,5 @@
 # READ ME - Brenton Weaver portfolio v1
+LINK : https://brento20.github.io/brenton.weaver/
 
 This is the framework for a portfolio that uses HTML and CSS elements to meet the following user story and assessment criteria.
 
