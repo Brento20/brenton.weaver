@@ -75,7 +75,7 @@ footer {
 }
 .contacts {
     display: flex;
-    width: 400px;
+    width: 300px;
     height: 140px;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -160,7 +160,7 @@ h4 {
     transition: all .5s ease-in-out;
 }
 .supportASRC {
-    width: 375px;
+    width: 350px;
 }
 
 #icon {
