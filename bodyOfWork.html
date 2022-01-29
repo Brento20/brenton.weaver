@@ -55,7 +55,31 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm">
-                One of three columns
+                <h3> Weather Dashboard</h3>
+                <p> This application runs using JavaScript and the Open Weather one call API. </p>
+                <div id="weatherPanel" class="visible future card grow" style="width: 17.2rem;">
+                    <div id="displayDay"><h5 class="card-title">Day</h5>
+                    </div><div id="displayDate"><p>Date</p></div>
+                    <img id="displayWeatherIcon" src="./assets/images/weatherIcons/01d.svg" height=150px width=150px></img>
+                    <div id="displayLocation"><p>City</p></div>
+                    <div id="displayCountry"></div>
+                    <div class="correctCase" id="displayConditions"><p>Conditions</p></div>
+                    <div id="displayTemp"><p class="card-text"></p><p>°C</p></div>
+                    <div id="displayHumidity"> <p>Humidity</p></div>
+                    <div id="displayUVI"> <p>UVI</p></div>
+                </div>
+<br>
+                <div id="weatherPanel1" class="visible card future grow" style="width: 17.2rem;">
+                    <div id="displayDay1"><h5 class="card-title">Day</h5></div>
+                    <div id="displayDate1"><p>Date</p></div>
+                    <img id="displayWeatherIcon1" src="./assets/images/weatherIcons/01d.svg" height=150px width=150px></img>
+                    <div id="displayLocation1"><p>City</p></div>
+                    <br>
+                    <div class="correctCase" id="displayConditions1"><p>Conditions</p></div>
+                    <div id="displayTemp1"><p class="card-text"></p><p>°C</p></div>
+                    <div id="displayHumidity1"> <p>Humidity</p></div>
+                    <div id="displayUVI1"> <p>UVI</p></div>
+                </div>
                 </div>
 
                 <div class="col-sm">
@@ -85,5 +109,8 @@
     </footer>
 
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="assets/script.js" ></script>
+
 
 </html>

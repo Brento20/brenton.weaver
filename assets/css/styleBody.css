@@ -193,3 +193,110 @@ h4 {
 .workLarge:hover,.workSmall1:hover,.workSmall2:hover {
         transform: scale(1.1);
     }
+
+
+/* Weather App Specific Styling */
+
+/* The CSS is very light on this one, a few tweaks were made to tailor the bootstrap CSS and a reset was loaded before bootstrap incase and defaults popped up and looked ugly */
+
+html {
+    font-family: 'Nunito Sans', sans-serif;;
+    max-width: 950px;
+    margin: auto;
+    background-color: rgb(231, 231, 231);
+}
+
+#weatherPanelMain {
+    max-width: 950px;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+#searchPanel {
+    max-width: 950px;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.headerStyle {
+    display: inline-flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.5em;
+    background-image: linear-gradient(to bottom right, rgb(106, 108, 255), rgb(35, 46, 193))
+}
+
+.headerStyle i {
+    font-size: 3.5em;
+}
+
+.clickWeather {
+    justify-content: right;
+}
+
+.card {
+    margin: 20px;
+    filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.3));
+    padding: 10px;
+}
+
+.text {
+
+    filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0));
+    border: none;
+    
+}
+
+.correctCase {
+    text-transform: capitalize;
+}
+
+.UVIHigh {
+    color:white;
+    background-color: rgb(142, 29, 29);
+    border-radius: 4px;
+}
+
+.UVIMid {
+    color: white;
+    background-color: rgb(207, 175, 31);
+    border-radius: 4px;
+}
+
+.UVILow {
+    color: white;
+    background-color: rgb(1, 112, 1);
+    border-radius: 4px;
+}
+
+img {
+    margin: auto;
+}
+
+/* The below are assigned to elements in the JavaScript */
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.today {
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(255, 240, 158));
+}
+
+.future {
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(211, 220, 230));
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+    
+.grow:hover { 
+    transform: scale(1.1); 
+}
