@@ -27,31 +27,6 @@ Table of contents
     padding: 3%;  
 }
 
-.box {
-    display: flex;
-    flex-wrap: wrap;
-    min-width: 300px;
-    max-width: 450px;
-    padding: 2%;
-    margin-top: 5%;
-}
-
-.workbox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    min-width: 300px;
-    max-width: 400px;
-    padding: 2%;
-    margin-top: 5%;
-}
-
-section {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
 footer {
     display: flex;
     max-width: 1024px;
@@ -60,7 +35,6 @@ footer {
     margin:auto;
     margin-bottom: 50px;
     text-align: center;
-    padding: 30px;
 }
 
 .quoteBackground {
@@ -111,10 +85,10 @@ h4 {
     text-align: center;   
 }
 
- em {
-     font-weight: 600;
-     font-style: italic;
- }
+em {
+    font-weight: 600;
+    font-style: italic;
+}
 
 .quote {
     text-align: right;
@@ -161,10 +135,11 @@ h4 {
     transition: all .5s ease-in-out;
 }
 .supportASRC {
-    width: 350px;
+    width: 100%;
 }
 
 #icon {
+    display: inline-flex;
     margin-top: 10px;
     margin-bottom: 30px;
     margin-right: 30px;
