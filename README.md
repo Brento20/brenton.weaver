@@ -64,3 +64,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 1. I deviated from the original wire-frame and didn't include a background for the main panel, in a future revision id love to add a scrolling effect that used an wave shape background.
 2. The original shape I wanted for the works panel didn't snap well to mobile and I ended up using margins a bit too much, in a future revision ill ad a grid to give it more structure.
+
+Deployed application:
+![desktop](./assets/readme/screenshotDesktop.png)
+![mobile](./assets/readme/screenshotMobile.png)

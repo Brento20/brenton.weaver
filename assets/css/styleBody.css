@@ -53,6 +53,7 @@ section {
 
 
 footer {
+    display: flex;
     max-width: 1024px;
     min-height: 150px;
     background-color: var(--darkbodyColor);
@@ -74,7 +75,7 @@ footer {
     flex-direction: column;
 }
 .contacts {
-    display: flex;
+    justify-content: center;
     width: 300px;
     height: 140px;
     justify-content: space-between;
