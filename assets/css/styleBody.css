@@ -264,11 +264,11 @@ img {
 }
 
 .today {
-    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(255, 240, 158));
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(255, 218, 158));
 }
 
 .future {
-    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(211, 220, 230));
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(255, 218, 158));
 }
 
 .grow { 
