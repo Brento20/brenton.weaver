@@ -24,6 +24,10 @@ header,.mainPanel,footer {
     box-shadow: 0px 0px 50px var(--dropShadows);
 }
 
+a:hover, a:active {
+    color: white;
+}
+
 /* ====== Mobile test zone ====== */
 
 @media only screen and (max-width: 600px) {

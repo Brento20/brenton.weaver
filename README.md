@@ -1,5 +1,10 @@
-# READ ME - Brenton Weaver portfolio v1
-LINK : https://brento20.github.io/brenton.weaver/
+# READ ME - Brenton Weaver portfolio v2
+
+## Description
+
+This is the working portfolio Of Brenton Weaver, created as part of the USYD Coding and Web Development Bootcamp.
+
+LINK TO DEPLOYED APPLICATION : https://brento20.github.io/brenton.weaver/
 
 This is the framework for a portfolio that uses HTML and CSS elements to meet the following user story and assessment criteria.
 
@@ -7,27 +12,20 @@ This is the framework for a portfolio that uses HTML and CSS elements to meet th
 **I WANT** to view a potential employee's deployed portfolio of work samples
 **SO THAT** I can review samples of their work and assess whether they're a good candidate for an open position
 
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-
 | Task | Status |
 |--|--|
 | Portfolio hosted from github | Complete |
 | Name, photo/avatar and links present | Complete |
 | Links work to "about me", "work" and "contact"   | Complete |
-| Image for first application is larger | Complete |
 | Application/works links externally | Complete |
 | Site is responsive to different devices | Complete |
+| Features 3 example works | Complete |
+| Links to GitHub and Linked in | Complete |
+| Has a downloadable resume | Complete |
+| Has email and phone contact details | Complete |
+| Projects are pinned on GitHub | Complete |
+| GitHub has about me and a profile pic | Complete |
+| Linked In is updated | Complete |
 
 
 
@@ -46,9 +44,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## HTML.
 
- 1. Use box structure
- 2. Create easily readable code
- 3. Include notes 
+ 1. Use bootstrap.
+ 2. Create easily readable code.
+ 3. Include multiple HTML files.
 
 ## .CSS stylesheet planing.
 
@@ -66,5 +64,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 2. The original shape I wanted for the works panel didn't snap well to mobile and I ended up using margins a bit too much, in a future revision ill ad a grid to give it more structure.
 
 Deployed application:
-![desktop](./assets/readme/screenshotDesktop.png)
-![mobile](./assets/readme/screenshotMobile.png)
+![UPDATEDDesktop](./assets/readme/uAbout.png)
+![UPDATEDDesktop](./assets/readme/uContact.png)
+![UPDATEDDesktop](./assets/readme/uBody.png)
+![UPDATEDMobile](./assets/readme/uMobile.png)
