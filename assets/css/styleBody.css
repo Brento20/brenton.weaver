@@ -28,12 +28,9 @@ Table of contents
 }
 
 footer {
-    display: flex;
     max-width: 1024px;
     min-height: 150px;
     background-color: var(--darkbodyColor);
-    margin:auto;
-    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -107,42 +104,9 @@ em {
 }
 
 
-
-
 /*  ==========
     3.) Images
     ========== */
-
-.workLarge {
-    width: 300px;
-    height: 250px;
-    border-radius: 0px 0px 30px 30px;
-    background-image: url(../images/horiseon.png);
-    background-size: 400px;
-    transition: all .5s ease-in-out;
-}
-
-.workSmall1 {
-    width: 300px;
-    height: 150px;
-    border-radius: 0px 0px 30px 30px;
-    margin-top: 2%;
-    background-image: url(../images/instagram.png);
-    background-size: 300px;
-    transition: all .5s ease-in-out;
-}
-
-.workSmall2 {
-    width: 300px;
-    height: 150px;
-    margin-top: 2%;
-    border-radius: 0px 0px 30px 30px;
-    background-color: var(--accentColor);
-    transition: all .5s ease-in-out;
-}
-.supportASRC {
-    width: 100%;
-}
 
 #icon {
     display: inline-flex;
@@ -171,9 +135,7 @@ em {
 #icon:hover {
         transform: scale(1.5);
     }
-.workLarge:hover,.workSmall1:hover,.workSmall2:hover {
-        transform: scale(1.1);
-    }
+
 
 
 /* Weather App Specific Styling */
@@ -264,11 +226,11 @@ img {
 }
 
 .today {
-    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(255, 218, 158));
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(255, 233, 173));
 }
 
 .future {
-    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(255, 218, 158));
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(158, 224, 255));
 }
 
 .grow { 
