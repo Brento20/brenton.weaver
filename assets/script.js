@@ -25,14 +25,10 @@ var openWeatherAPIlink = "https://api.openweathermap.org/data/2.5/onecall?"
 
 //Modifiers 
 var kelvin = 273.15;
-var lastSearchLS = (localStorage.getItem('city :'));
 /////////////////
 
 
-/////////////////////////////////////////////2. ONLOAD
-
-/////////////////
-
+/////////////////////////////////////////////2. ONLOAD - Removed for demo
 
 /////////////////////////////////////////////2. DATE FILLING
 function fillDates(){
@@ -44,11 +40,10 @@ function fillDates(){
 
 
 /////////////////////////////////////////////5. NESTED FETCH
-function clickSearch(){
+function Search(){
     var city = "Sydney";
-    localStorage.setItem("city :", city); 
     var currentDayMJS = moment().format("dddd, MMMM Do YYYY");
-    console.log(currentDayMJS)
+
     fillDates();
     
     fetch("https://api.openweathermap.org/data/2.5/forecast?q=" + city + key)
@@ -64,6 +59,7 @@ function clickSearch(){
                 var tempTemp = (data.list[0].main.temp - kelvin).toFixed(0);
                 var lon = data.city.coord.lon;
                 var lat = data.city.coord.lat;
+
                 //Current Day
                 ElDisplayLocation.innerHTML = "<h5> City: " + data.city.name + "</h5>";
                 ElDisplayLocationCountry.innerHTML = "<h5> Country: " + data.city.country + "</h5>";
@@ -116,4 +112,6 @@ function clickSearch(){
                 });
             });
 }
-clickSearch();
+
+//Calling the function bc the demo has no onclick event listener
+Search();

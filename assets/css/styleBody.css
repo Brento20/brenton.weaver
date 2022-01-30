@@ -32,6 +32,7 @@ footer {
     min-height: 150px;
     background-color: var(--darkbodyColor);
     text-align: center;
+    padding: 1rem;
 }
 
 .quoteBackground {
@@ -41,18 +42,6 @@ footer {
     padding: 15%;
     box-shadow: 0px 0px 25px rgba(135, 135, 135, 0.5);
 }
-#contactContainer {
-    display: flex;
-    flex-direction: column;
-}
-.contacts {
-    justify-content: center;
-    width: 300px;
-    height: 140px;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-right: 60px;
-}
 
 .exampleProject {
     padding: 1.5rem;
@@ -60,8 +49,6 @@ footer {
     background-color: var(--darkbodyColor);
     margin-bottom: 2rem;
 }
-
-
 
 /*  ==========
     2.) Text Styling
@@ -149,18 +136,6 @@ html {
     background-color: rgb(231, 231, 231);
 }
 
-#weatherPanelMain {
-    max-width: 950px;
-    justify-content: space-evenly;
-    margin: auto;
-}
-
-#searchPanel {
-    max-width: 950px;
-    justify-content: space-evenly;
-    margin: auto;
-}
-
 .headerStyle {
     display: inline-flex;
     width: 100%;
@@ -171,26 +146,14 @@ html {
     background-image: linear-gradient(to bottom right, rgb(106, 108, 255), rgb(35, 46, 193))
 }
 
-.headerStyle i {
-    font-size: 3.5em;
-}
-
-.clickWeather {
-    justify-content: right;
-}
-
 .card {
-    margin: 20px;
+    margin: 4rem;
     filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.3));
-    padding: 10px;
+    padding: 1rem;
 }
 
 .shadow {
     filter: drop-shadow(0 0 0.2rem rgba(0, 0, 0, 0.3));
-}
-
-.correctCase {
-    text-transform: capitalize;
 }
 
 .UVIHigh {
@@ -217,13 +180,6 @@ img {
 
 /* The below are assigned to elements in the JavaScript */
 
-.hidden {
-    visibility: hidden;
-}
-
-.visible {
-    visibility: visible;
-}
 
 .today {
     background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(255, 233, 173));
@@ -234,9 +190,9 @@ img {
 }
 
 .grow { 
-    transition: all .2s ease-in-out; 
+    transition: all .3s ease-in-out; 
 }
     
 .grow:hover { 
-    transform: scale(1.1); 
+    transform: scale(1.05); 
 }
